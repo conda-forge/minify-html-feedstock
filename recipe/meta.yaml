@@ -1,5 +1,5 @@
 {% set name = "minify-html" %}
-{% set version = "0.17.1" %}
+{% set version = "0.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/minify_html-{{ version }}.tar.gz
-  sha256: fe160954bc12cdb8608437d90264876d4e18abf820d6080a3211d396952340b4
+  sha256: 07a4e2a7a13e597807466575ad8e06357736abb7d7fbcd153bf36393fedae3c1
 
 build:
   script_env:
